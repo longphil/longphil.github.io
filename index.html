@@ -62,6 +62,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-开发规范" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/08/16/开发规范/" class="article-date">
+  <time datetime="2017-08-16T08:57:51.908Z" itemprop="datePublished">2017-08-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="代码规范"><a href="#代码规范" class="headerlink" title="代码规范"></a>代码规范</h1><ul>
+<li>对于图文的简单组合显示，可以使用TextView的drawableLeft，drawableRight属性</li>
+</ul>
+<p><img src="http://i.imgur.com/KhiTJPu.jpg" alt=""></p>
+<h1 id="流程规范"><a href="#流程规范" class="headerlink" title="流程规范"></a>流程规范</h1><ul>
+<li>接到需求后，如果是已有业务上的调整，要通过读代码熟悉业务，了解需求对已有业务的影响<br>如果是新需求，通过交互图了解交互流程</li>
+<li>业务做完需要深度自测，把自己认为测试可能测不到的点测试一遍</li>
+<li>提交给测试的，应及时通知到位，并定期跟进测试结果，避免拖拉到上版本前出现大问题，影响上版本进度<h1 id="资源使用规范"><a href="#资源使用规范" class="headerlink" title="资源使用规范"></a>资源使用规范</h1></li>
+<li>string资源根据功能模块分类存放，常用的string检索项目，看是否可以直接用</li>
+<li>图片资源尺寸只需要xh.xxh,特殊情况除外</li>
+<li>对于项目中使用的色值有统一风格，路径Common\src\main\res\values\fcom_colors.xml，例外的直接在布局中写色值<h1 id="注释规范"><a href="#注释规范" class="headerlink" title="注释规范"></a>注释规范</h1></li>
+<li>Activity中布局变量写注释，方便阅读<br><img src="http://i.imgur.com/SeMs0YH.jpg" alt=""><h1 id="开发中需要使用的基类，工具类，控件等"><a href="#开发中需要使用的基类，工具类，控件等" class="headerlink" title="开发中需要使用的基类，工具类，控件等"></a>开发中需要使用的基类，工具类，控件等</h1></li>
+<li>输入金额控件：ValidatorEditText</li>
+<li>输入银行卡每4位数新增空格控件：CardInputEditText<h1 id="其他你希望约定好需要放入规范中与别人一同协作的事或物"><a href="#其他你希望约定好需要放入规范中与别人一同协作的事或物" class="headerlink" title="其他你希望约定好需要放入规范中与别人一同协作的事或物"></a>其他你希望约定好需要放入规范中与别人一同协作的事或物</h1></li>
+<li>每个人都可以做代码审查，发现比较明显的没按规范写的，可以提出来让对应人纠正</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/08/16/开发规范/" data-id="cj6esb5bm000320r0ll41opij" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-secondBlog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/08/16/secondBlog/" class="article-date">
@@ -99,7 +141,7 @@ shop_product_gobuy // 去购物
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/08/16/secondBlog/" data-id="cj6ergama0002acr0kaucfo5o" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/08/16/secondBlog/" data-id="cj6esb5bl000220r054xmjqy4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -188,7 +230,7 @@ shop_product_gobuy // 去购物
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/08/16/myfirstblog/" data-id="cj6ergam70001acr0nvefgsfd" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/08/16/myfirstblog/" data-id="cj6esb5bi000120r0cokt52tf" class="article-share-link">Share</a>
       
       
     </footer>
@@ -233,7 +275,7 @@ shop_product_gobuy // 去购物
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/08/16/hello-world/" data-id="cj6ergam20000acr0qpyalhuj" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/08/16/hello-world/" data-id="cj6esb5bd000020r0i18iubjt" class="article-share-link">Share</a>
       
       
     </footer>
@@ -271,6 +313,10 @@ shop_product_gobuy // 去购物
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/08/16/开发规范/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2017/08/16/secondBlog/">secondBlog</a>
